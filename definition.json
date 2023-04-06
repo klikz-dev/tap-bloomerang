@@ -1,0 +1,21 @@
+{
+    "name": "Bloomerang",
+    "description": "Bloomerang is the Donor management software that nonprofits actually love to use. Whether you're using an out-of-the-box implementation or a custom implementation, the Bytespree connector for Bloomerang is able to download all of your Bloomerang data.",
+    "instructions": "<ol><li>Create a Private Key</li><ul><li>Private keys can be generated in a Bloomerang database as an Administrator User, in User Settings.</li><li>Login to an Administrator User account.</li><li>Click the User icon in the upper right hand corner, and then Edit My User.</li><li>You can generate new API keys or deactivate existing API keys on this page.</li><li>See the <a href='https://bloomerang.freshdesk.com/support/solutions/articles/13000076351' target='_blank'>Bloomerang knowledge base</a> for more details if needed.</li></ul><li>In Bytespree, provide the Private Key for the Bloomerang connected app you just created</li><li>Click \"Connect to Bloomerang\" in Bytespree</li><li>Finish database setup</li></ol>",
+    "known_limitations": [],
+    "use_tables": true,
+    "use_hooks": false,
+    "full_replace": true,
+    "logo_path": "logo.png",
+    "settings": [
+        {
+            "name": "private_key",
+            "friendly_name": "Private Key",
+            "description": "Bloomerang API Private Key",
+            "is_secure": true,
+            "is_required": true,
+            "setting_type": "integration",
+            "ordinal_position": 1
+        }
+    ]
+}
